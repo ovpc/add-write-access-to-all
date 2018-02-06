@@ -1,8 +1,8 @@
 #!/bin/bash
 # Ask the PATH
-echo Geef het volledige Linuxpad naar de map, waar je schrijfrechten voor wilt geven 
+echo Type the full PATH to folder needing write access 
 read varname
-echo De map heet $varname Schrijfrechten toekennen.....Je zult om het wachtwoord van coencadbeheer gevraagd worden.
+echo The folders name is $varname asigning write access.....You may be asked your (sudo) password.
 chmod a+w -R $varname
-echo schrijfrechten van $varname aangepast
+echo Write access granted to $varname 
 exit
