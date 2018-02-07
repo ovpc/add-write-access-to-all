@@ -7,7 +7,7 @@ inputStr=$(zenity --entry --title=”Set Direcory” --text=”Enter full PATH�
 #
 echo "Making Directory $inputStr writable to all .....You may be asked for your password."
 chmod a+w -R $inputStr
-echo schrijfrechten van $inputStr aangepast
+echo  Directory $inputStr is now writable
 exit
 
 # License
